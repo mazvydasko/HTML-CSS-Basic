@@ -1,0 +1,257 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding: 20px 0px;
+    margin-bottom: 50px;
+}
+
+header .upperHead {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+header .upperHead .leftSide h2 {
+    font-size: 30px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+header .upperHead .leftSide p {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+
+header .upperHead .rightSide {
+    align-self: flex-end;
+}
+
+header .upperHead .rightSide input {
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    background-color: #353535;
+}
+
+header .upperHead .rightSide button {
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    background-color: #d54346;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+header .downHead {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header .downHead .leftSide a {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+header .downHead .rightSide img {
+    width: 30px;
+    position: relative;
+    bottom: -2px;
+    padding-left: 5px;
+}
+
+header .downHead .rightSide img:hover {
+    filter: invert(48%) sepia(79%) saturate(2476%);
+}
+
+.banner .inner {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px; 
+}
+
+.banner .inner .container {
+    background-color: #353535;
+    height: 450px;
+    position: relative;
+}
+
+.banner .inner .container .textcontainer {
+    width: 40%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner .inner .container .text {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.container .inner {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 50px;
+}
+
+.container .inner .thirds.padding {
+    padding: 0px 30px;
+}
+
+.container .inner .thirds h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container .inner .thirds p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #353535;
+}
+
+.container .inner .thirds button {
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    background-color: #d54346;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.lastcontainer .inner {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e2e2e2;
+    align-items: baseline;
+}
+
+.lastcontainer .inner .half {
+    min-width: 50%;
+}
+
+.lastcontainer .inner .half .services img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+.lastcontainer .inner h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.lastcontainer .inner .half .services {
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+
+.lastcontainer .inner .half .services p {
+    display: inline;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #353535;
+}
+
+.lastcontainer .inner .half .services h6 {
+    color: #d54346;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.lastcontainer .inner .half .about {
+    margin-bottom: 30px;
+}
+
+.lastcontainer .inner .half .about img {
+    width: 225px;
+    height: 145px;
+    float: left;
+    margin-right: 20px;
+}
+
+.lastcontainer .inner .half .about p {
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #353535;
+}
+
+.lastcontainer .inner .half .about .imgp {
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 47 px;
+    display: block;
+}
+
+.lastcontainer .inner .half .about button {
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    background-color: #d54346;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+
+.lastcontainer .inner .half .testimon img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.lastcontainer .inner .half .testimon h6 {
+    font-weight: bold;
+}
+
+.lastcontainer .inner .half .testimon h4 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.lastcontainer .inner .half .testimon .view {
+    font-size: 10px;
+    padding-top: 5px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 21px;
+    cursor: pointer;
+}
+
+.lastcontainer .inner .half .testimon p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #353535;
+}
+
+footer .inner {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+    font-size: 14px;
+}
